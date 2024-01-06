@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@500;700&family=Oswald:wght@600&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+    
+}
+
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    background-image: url("chess-2730034_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px  #f2f2f2;
+    
+}
+
+h1{
+    text-align: center;
+    font-weight: 550;
+    color: antiquewhite;
+}
+
+.board{
+    width: 400px;
+    margin: 20px auto;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button{
+    background-color: #f2f2f2;
+    color: #323232;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
+}
+
+button:hover{
+    background-color: #323232;
+    color: #fff;
+}
+
+#audio{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.move-history{
+    margin-top: 20px;
+    border: solid 1px #eee;
+    width: 400px;
+    height: 100px;
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+   
+}
